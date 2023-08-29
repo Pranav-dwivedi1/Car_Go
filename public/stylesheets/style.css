@@ -1,0 +1,758 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+
+}
+html,body{
+width: 100%;
+height: 100%;
+
+
+}
+
+.main{
+  width: 100%;
+  height: 100%;
+  
+}
+#page1{
+  width: 100%;
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-color: black;
+  /* background-image: url("https://demo.bravisthemes.com/promotors/wp-content/uploads/2023/02/left-light-carousel.png"); */
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+
+
+}
+/* 
+#page1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(0px);  
+  overflow: hidden;
+
+  
+} */
+
+
+#nav{
+  width: 100%;
+  height: 70px;
+  /* background: #61122f; */
+  background: transparent;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+  color: rgb(236, 233, 233);
+  position: fixed;
+  z-index: 99;
+  /* overflow: hidden; */
+}
+
+#nav1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5%;
+  padding-right: 50px;
+}
+
+#nav1 h3{
+cursor: pointer;
+}
+
+#nav1 h3:hover{
+transform: scale(1.2);
+color: rgb(197, 193, 193);
+}
+#nav input{
+  padding: 10px;
+  border-radius: 20px;
+  border: #9e2323 solid 2px;
+}
+
+.nav1 ul{
+  list-style: none;
+  background: #e33838;
+}
+.nav1 ul li{
+
+  display: inline-block;
+  position: relative;
+
+}
+
+.nav1 ul li a{
+  width: 100%;
+  display: block;
+  padding: 20px 25px;
+  color: #5ec722;text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+.nav1 ul.menu li{
+  display: block;
+  background-color: #b86464;
+  position: absolute;
+  z-index: 999;
+  display: none;
+}
+
+.nav1 ul li a:hover{
+  background: #cb5555;
+}
+.nav1 ul li:hover ul.menu{
+  display: block;
+}
+
+.box{
+ width: 100%;
+ margin-top: 110px;
+ margin-left: 250px;
+ font-size: 17px;
+ align-items: center;
+ justify-content: center;
+ flex-wrap: wrap;
+ font-weight: 100;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ /* overflow: hidden; */
+}
+
+
+
+.box h3{
+  margin-left: 10px;
+  margin-top:5px;
+  padding-top: 5px;
+
+}
+.div1 .ri-arrow-drop-right-line{
+  margin-left: 160px;
+  cursor: pointer;
+  
+
+ 
+
+}
+.div2 .ri-arrow-drop-right-line{
+  margin-left:135px;
+  cursor: pointer;
+
+
+
+ 
+
+}
+.div3 .ri-arrow-drop-right-line{
+  margin-left:150px;
+  cursor: pointer;
+
+
+ 
+
+}
+.div4 .ri-arrow-drop-right-line{
+  margin-left:130px;
+  cursor: pointer;
+
+ 
+
+}
+
+.div1{
+  width: 270px;
+  height: 37px;
+  background: #b86464;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.div2{
+  width: 270px;
+  height: 37px;
+  background: #ffc704;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.div3{
+  width: 270px;
+  height: 37px;
+  background: #ee6a45;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.div4{
+  width: 270px;
+  height: 37px;
+  background: #5ec722;
+  margin: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+
+}
+
+#line
+{
+width: 180px;
+rotate: 90deg;
+position: relative;
+top: 100px;
+left: 225px;
+background: #f3f3f3;
+}
+
+.text{
+  /* position: absolute;
+  bottom: 5px;
+  left: 350px; */
+margin-left: 350px;
+margin-top: -200px;
+color: white;
+
+}
+
+.text #box1{
+  display: flex;
+  gap: 5px;
+  font-size: 25px;
+}
+
+.text h1{
+font-size: 60px;
+}
+
+.text h2{
+font-size: 30px;
+}
+.text span{
+  color:#ffc704;
+  font-size: larger;
+}
+.text p{
+font-size: 46px;
+font-weight: 800;
+color: white;
+position: relative;
+top: 150px;
+right: 130px;
+
+}
+
+#logo{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 150px;
+  background: #1a1919;
+}
+#logo img{
+ width: 100px;
+ margin-top: 180px;
+ color: #5ec722;
+
+}
+
+/* page2 */
+#page2{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
+  color: white;
+  background-color: #000000;
+}
+#part1{
+  margin-top: -150px;
+}
+#part1 h1{
+font-size: 45px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 400;
+
+}
+#part1 h4{
+font-size: 17px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-weight: 100;
+position: relative;
+top: 50px;
+color: #8f8d8d;
+
+
+}
+#p2box1 h1{
+font-size: 70px;
+color: #f47413;
+font-weight: 600;
+
+}
+#p2box2 h1{
+  font-size: 70px;
+  color: #f47413;
+  font-weight: 600;
+}
+
+.p2box1 p{
+font-style:normal;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #8f8f8f;
+}
+.p2box2 p{
+  font-style:normal;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #898989;
+}
+#pbox hr{
+margin: 12px 0px;
+
+}
+
+#pbox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ position: relative;
+ top: 120px;
+ right: 22px;
+
+}
+#part2 img{
+height: 520px;
+width: 540px;
+object-fit: cover;
+filter: brightness(70%);
+}
+#part2 img:hover{
+filter: brightness(105%);
+cursor: pointer;
+transition: 0.9s;
+}
+
+ 
+  
+
+/* page234 */
+.page4567{
+  background-color: #000;
+}
+.page4{
+  width: 50%;
+  height: 70%;
+  background-image: url("https://images.unsplash.com/photo-1560009333-bbfdb1d4f012?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60");
+  background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      margin: 10px 0;
+      margin-left: 12px;
+      
+  }
+  .pagetext4{
+      text-align: center;
+      color: #f3f3f3;
+      margin-top: 14%;
+      font-size: 21px;
+  }
+  
+  
+  .page5{
+      width: 50%;
+      height: 70%;
+      background-image: url("https://images.unsplash.com/photo-1615906655593-ad0386982a0f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2FyJTIwZW5naW5lfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60");
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center; 
+      margin: 10px;
+      margin-left: 19px;
+      
+      
+      
+  }
+  .pagetext5{
+      text-align: center;
+      margin-top: 14%;
+      color: rgb(249, 249, 249);
+      font-size: 21px;
+  
+  }
+  
+  .page6{
+      width: 50%;
+      height: 70%;
+      background-image: url("https://st.depositphotos.com/1011643/1477/i/450/depositphotos_14775445-stock-photo-mechanic-changing-vehicle-tyre.jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center; 
+      margin: 10px;
+  
+      
+  }
+  .pagetext6{
+      text-align: center;
+      margin-top: 14%;
+      color: white;
+      font-size: 21px;
+  }
+  .page7{
+      width: 50%;
+      height: 70%;
+      background-image: url("https://images.pexels.com/photos/14567314/pexels-photo-14567314.jpeg?cs=srgb&dl=pexels-ahmet-olgun-14567314.jpg&fm=jpg");
+      background-size:cover;
+      background-repeat: no-repeat;
+      background-position: center; 
+      margin: 10px;
+      
+      
+  }
+  .pagetext7{
+      text-align: center;
+      margin-top: 14%;
+      color: rgb(255, 255, 255);
+      font-size: 21px;
+  }
+  .page4567{
+      display: flex;
+      width: 100%;
+      height: 100%;
+  }
+  .page4567 button{
+      margin-top: 450px;
+      padding: 15px 50px;
+      font-size: 17px;
+      font-weight: 600;
+      background-color: #182121;
+      color: #fbfcfc;
+      box-shadow: 2px 2px 2px rgb(62, 46, 46);
+      font-weight: 500;
+      border-radius: 25px;
+      cursor: pointer;
+   
+  }
+  .page4567 button:hover{
+  background-color: #21efd3;
+  color: #fcfcfc;
+  font-size: 18px;
+  }
+/* Footer */
+
+
+footer{
+  width: 100%;
+  height: 100%;   
+  background-color: black;
+  padding-top: 10vmax;
+}
+footer p{
+  font-size: 0.9vmax;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.foot{
+width: 65%;
+height: 100%;
+margin-left: 18%;
+}
+.ul{
+display: flex;
+direction: none;
+
+}
+ul{
+direction: none;
+list-style-type: none;
+font-size: 0.9vmax;
+line-height: 1.7vmax;
+font-weight: 500;
+color: #479ddb;
+
+
+}
+a{
+
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+.ul .Align{
+margin-left: 8%;
+}
+.policy{
+display: flex;
+}
+
+
+/* contact  page css*/
+
+
+
+#contact {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  padding: 10%;
+}
+
+.section-header {
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 0;
+  font: 300 60px 'Oswald', sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+}
+
+.contact-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+  max-width: 840px;
+}
+
+/* Left contact page */
+.form-horizontal {
+  /*float: left;*/
+  max-width: 400px;
+  font-family: 'Lato';
+  font-weight: 400;
+}
+
+.form-control, 
+textarea {
+  width: 27vmax;
+  background-color: #000;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+
+.send-button {
+  margin-top: 15px;
+  height: 34px;
+  width: 400px;
+  overflow: hidden;
+  transition: all .2s ease-in-out;
+}
+
+.alt-send-button {
+  width: 400px;
+  height: 34px;
+  transition: all .2s ease-in-out;
+}
+
+.send-text {
+  display: block;
+  margin-top: 10px;
+  font: 700 12px 'Lato', sans-serif;
+  letter-spacing: 2px;
+}
+
+.alt-send-button:hover {
+  transform: translate3d(0px, -29px, 0px);
+}
+
+/* Begin Right Contact Page */
+.direct-contact-container {
+  max-width: 400px;
+}
+
+/* Location, Phone, Email Section */
+.contact-list {
+  list-style-type: none;
+  margin-left: -30px;
+  padding-right: 20px;
+}
+
+.list-item {
+  line-height: 4;
+  color: #aaa;
+}
+
+.contact-text {
+  font: 300 18px 'Lato', sans-serif;
+  letter-spacing: 1.9px;
+  color: #bbb;
+}
+
+.place {
+  margin-left: 62px;
+}
+
+.phone {
+  margin-left: 56px;
+}
+
+.gmail {
+  margin-left: 53px;
+}
+
+.contact-text a {
+  color: #bbb;
+  text-decoration: none;
+  transition-duration: 0.2s;
+}
+
+.contact-text a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Social Media Icons */
+.social-media-list {
+  position: relative;
+  font-size: 22px;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.social-media-list li a {
+  color: #fff;
+}
+
+.social-media-list li {
+  position: relative; 
+  display: inline-block;
+  height: 60px;
+  width: 60px;
+  margin: 10px 3px;
+  line-height: 60px;
+  border-radius: 50%;
+  color: #fff;
+  background-color: rgb(27,27,27);
+  cursor: pointer; 
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 50%;
+  opacity: 0;
+  box-shadow: 0 0 0 1px #fff;
+  transition: all .2s ease-in-out;
+}
+
+.social-media-list li:hover {
+  background-color: #fff; 
+}
+
+.social-media-list li:hover:after {
+  opacity: 1;  
+  transform: scale(1.12);
+  transition-timing-function: cubic-bezier(0.37,0.74,0.15,1.65);
+}
+
+.social-media-list li:hover a {
+  color: #000;
+}
+
+.copyright {
+  font: 200 14px 'Oswald', sans-serif;
+  color: #555;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+hr {
+  border-color: rgba(255,255,255,.6);
+}
+
+/* Begin Media Queries*/
+@media screen and (max-width: 850px) {
+  .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .direct-contact-container, .form-horizontal {
+    margin: 0 auto;
+  }  
+  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 300px;
+  }    
+  .social-media-list li {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+  }
+  .social-media-list li:after {
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 569px) {
+
+  .direct-contact-container, .form-wrapper {
+    float: none;
+    margin: 0 auto;
+  }  
+  .form-control, textarea {
+    
+    margin: 0 auto;
+  }
+ 
+  
+  .name, .email, textarea {
+    width: 280px;
+  } 
+  
+  .direct-contact-container {
+    margin-top: 60px;
+    max-width: 280px;
+  }  
+  .social-media-list {
+    left: 0;
+  }
+  .social-media-list li {
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    font-size: 2rem;
+  }
+  .social-media-list li:after {
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+  }
+  
+}
+
+@media screen and (max-width: 410px) {
+  .send-button {
+    width: 99%;
+  }
+}

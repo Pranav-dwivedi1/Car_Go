@@ -1,0 +1,20 @@
+
+
+@media screen and (max-width: 650px ){
+    .nav-toggel{
+       margin-right: 5vmax;
+   }
+   #nav h3 {
+     display: none;
+   }
+   #page1 .box{
+      display: flex; 
+      flex-direction: row-reverse;
+   }
+   #page2{
+     
+      flex-direction: column-reverse;
+   }
+   
+   
+ }
